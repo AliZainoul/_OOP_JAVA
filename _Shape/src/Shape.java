@@ -1,6 +1,5 @@
 package src;
 
-
 abstract public class Shape
 {
   String name;
@@ -15,9 +14,12 @@ abstract public class Shape
 
 
 /*
-super(name)!
-override
-abstract
-héritage simple
+Concepts:
+abstraction
+inheritance
 encapsulation
+
+keywords:
+super
+override
 */

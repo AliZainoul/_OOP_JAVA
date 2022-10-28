@@ -1,6 +1,5 @@
 package src;
 
-
 public class Rectangle extends Shape {
   // Members
   double width;
@@ -9,8 +8,7 @@ public class Rectangle extends Shape {
 
   // Constructors
   // Default Constructor
-  //public Rectangle(){}
-
+  // public Rectangle(){}
   public Rectangle()
   {
     super("");
@@ -50,8 +48,8 @@ public class Rectangle extends Shape {
   {
     System.out.println(
     "Name of Rectangle: "  + this.getName() +
-    ", Sides = (" + this.getWidth() + ", " +  this.getHeigth()
-    + ")" + "Area of my Rectangle = " + this.calculateArea()
+    ", Sides = (" + this.getWidth() + ", " +  this.getHeigth() + ")" +
+    ", Area of my Rectangle = " + this.calculateArea()
     );
   }
 }

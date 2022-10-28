@@ -1,6 +1,5 @@
 import src.*;
 
-
 public class main
 {
   public static void main(String[] args)
@@ -24,6 +23,5 @@ public class main
     tt.printTriangle();
     cc.printCircle();
     ss.printRectangle();
-
   }
 }

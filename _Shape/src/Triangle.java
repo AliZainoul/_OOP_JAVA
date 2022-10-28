@@ -1,7 +1,5 @@
 package src;
 
-
-
 public class Triangle extends Shape {
   // Members
   double a;
@@ -58,9 +56,8 @@ public class Triangle extends Shape {
   {
     System.out.println(
     "Name of Triangle: "  + this.getName() +
-    ", Vertexes = (" + this.getA() + ", " + this.getB() + ", " + this.getC()
-    + ")" + "Area of my Triangle = " + this.calculateArea()
-
+    ", Vertexes = ("+this.getA() + ", " +this.getB() + ", " +this.getC()+ ")" +
+    ", Area of my Triangle = " + this.calculateArea()
     );
   }
 }

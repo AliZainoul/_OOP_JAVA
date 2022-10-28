@@ -14,7 +14,8 @@ public class Circle extends Shape {
   public Circle(double _radius, String _name)
   {
     super(_name);
-    this.radius = _radius;
+    if (_radius >= 0)
+      this.radius = _radius;
   }
 
   // Methods
@@ -41,7 +42,7 @@ public class Circle extends Shape {
     System.out.println(
     "Name of circle: "  + this.getName() +
     ", radius = " + this.getRadius() +
-    "Area of my Circle = " + this.calculateArea()
+    ", Area of my Circle = " + this.calculateArea()
     );
   }
 }
