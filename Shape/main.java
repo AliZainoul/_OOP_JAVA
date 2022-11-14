@@ -21,6 +21,5 @@ public class main
     tt.printTriangle();
     cc.printCircle();
     ss.printRectangle();
-
   }
 }

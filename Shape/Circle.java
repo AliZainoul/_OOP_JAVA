@@ -1,6 +1,6 @@
 public class Circle extends Shape {
   // Members
-  double radius;
+  private double radius;
 
   // Constructors
   // Default Constructor
